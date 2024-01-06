@@ -1,0 +1,72 @@
+.header{
+  width: 100%;
+  padding: 10px ;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  /* background-color: aqua; */
+  background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
+  margin-bottom: 10px;
+}
+input{
+  width: 25%;
+  /* padding: 10px; */
+  font-size: 17px;
+  border-radius: 5px;
+  outline: none;
+border: none;
+  /* border: 1px solid gray; */
+}
+
+
+
+
+
+/* News article Css */
+.news{
+  width: 30%;
+  /* height: 200px; */
+  padding: 10px;
+  background-color: white;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  row-gap:5px ;
+  border-radius: 5px;
+}
+.news-articles{
+  width: 100%;
+  padding: 30px 5%;
+  background-color: #f2f2f2;
+  /* border: 2px solid red; */
+  display: flex;
+  column-gap: 4%;
+  flex-wrap: wrap;
+  row-gap: 20px;
+
+}
+.news-img{
+  width: 100%;
+  height: 200px;
+  /* background-color: blue; */
+  border-radius: 5px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: url('https://www.msi-viking.com/sca-dev-2023-1-0/img/no_image_available.jpeg'); */
+  /* background-repeat: no-repeat; */
+  background-size: cover;
+}
+.news-img img{
+   width: 100%;
+   /* background-size: cover; */
+}
+
+.source{
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+
